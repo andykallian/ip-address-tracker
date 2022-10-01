@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--leaflet css -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css"integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin=""/>
+  <!--leaflet css -->
+ 
+  <link rel="stylesheet" href="style.css">
+  
+  <title>IP Address Tracker</title>
+</head>
+<body>
+  <main class="container">
+
+    <header class="top">
+      <div class="container-top">
+        <label for="">
+          <h1>IP Address Tracker</h1>
+          <div class="inputs">
+            <input type="number">
+            <button type="submit">></button>
+          </div>
+        </label>
+      </div>
+    </header>
+
+    <section class="infos">
+      <div class="info-container">
+        <h2 class="title">IP ADDRESS</h2>
+        <p class="info">192.212.174.101</p>
+      </div>
+      <span class="line"></span>
+
+      <div class="info-container">
+        <h2 class="title">LOCATION</h2>
+        <p class="info">Brooklyn, NY 10001</p>
+      </div>
+
+      <span class="line"></span>
+
+      <div class="info-container">
+        <h2 class="title">TIMEZONE</h2>
+        <p class="info">UTC-05:00</p>
+      </div>
+
+      <span class="line"></span>
+
+      <div class="info-container">
+        <h2 class="title">ISP</h2>
+        <p class="info">SpaceX Starlink</p>
+      </div>
+    </section>
+     
+    
+    <div id="map">
+  
+    </div>
+  </main>
+
+
+  <!--leaflet script -->
+
+  <script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js" integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s=" crossorigin=""></script>
+  <!--leaflet script -->
+
+  <script src="index.js"></script>
+</body>
+</html>
