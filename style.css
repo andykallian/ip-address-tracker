@@ -141,6 +141,10 @@ body{
   z-index: 1; 
 }
 
+.leaflet-control-container{
+  display: none;
+}
+
 
 @media screen and (min-width: 680px) {
 
@@ -153,14 +157,16 @@ body{
   }
 
   .infos{
+    height: 20rem;
+    top: 10%;
+
     flex-direction: row;
     gap: 1.5rem;
-    top: 20%;
   }
 
   .line{
     width: .1rem;
-    height: 5rem;
+    height: 10rem;
     background-color: var(--Dark-Gray);
   }
   
